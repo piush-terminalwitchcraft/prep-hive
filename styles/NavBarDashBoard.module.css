@@ -1,0 +1,56 @@
+.NavBody {
+	height: 78px;
+	width: 80vw;
+	margin: 0 auto;
+	border-radius: 0 0 16px 16px;
+	padding: 12px;
+	display: flex;
+	align-content: space-between;
+	background-color: #3b4252;
+}
+.NavBodyContents {
+	height: 64px;
+	width: 60vw;
+	color: #eceff4;
+	display: flex;
+	align-content: space-between;
+}
+.NavBodyContentList {
+	margin: 0 0px;
+	cursor: pointer;
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	font-size: 1.2rem;
+	flex-grow: 0.2;
+}
+.NavIcons {
+	padding: 12px 0 12px 12px;
+	width: 48px;
+	height: 48px;
+}
+.NavList {
+	padding: 12px 0px 0px 12px;
+}
+.NavProfile {
+	display: flex;
+	align-content: flex-end;
+	color: #eceff4;
+}
+.NavProfileIcon {
+	width: 48px;
+	height: 48px;
+	background-color: purple;
+	border-radius: 48px;
+	text-align: center;
+	font-size: 1.4rem;
+	padding-top: 10px;
+	font-weight: bold;
+}
+.NavProfileEmail {
+	padding: 12px;
+	margin-left: 8px;
+	border: 2px solid white;
+	border-radius: 12px;
+}
