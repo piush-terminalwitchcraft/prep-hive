@@ -1,0 +1,49 @@
+.CardBody{
+    background-color: #4C566A;
+    border: 1px solid #4C566A;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    height: 256px;
+    width: 256px;
+    color: #ECEFF4;
+    border-radius: 16px;
+
+}
+
+.CardLogo{
+    height: 64px;
+    width: 64px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.CardHeader{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.CardDescription{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.CardLink{
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    background-color: #4C566A;
+    align-content: center;
+}
+.CardLink a svg{
+    width: 48px;
+    height: 48px;
+    color: #ECEFF4;
+    margin: 0 auto;
+    display: block;
+    /* padding: 16px; */
+}

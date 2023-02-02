@@ -1,0 +1,15 @@
+.Company{
+    margin:10vh 10vw;
+}
+.CompanyHeader{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    /* text-align: center; */
+    color: #ECEFF4;
+    font-weight: 700;
+}
+.CompanyBody{
+    display: flex;
+    flex-wrap: wrap;
+}

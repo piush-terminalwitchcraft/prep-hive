@@ -1,0 +1,78 @@
+.StartBody{
+    /* use nord color scheme */
+    background-color: #2e3440;
+    color: #d8dee9;
+    min-height: 100vh;
+    width: 100vw;
+    padding: 48px 36px 48px 36px;
+}
+
+.StartHeader{
+    /* use nord color scheme */
+    background-color: #2e3440;
+    color: #d8dee9;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.4rem;
+    font-weight: 650;
+    padding-bottom: 36px;
+}
+
+.StartMainContent{
+    display: flex;
+}
+
+.StartMainContentLeft{
+    flex: 1;
+    padding: 0 24px 0 0;
+}
+
+.StartMainContentLeft img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.StartMainContentRight{
+    flex: 1;
+    padding: 0 0 0 24px;
+}
+
+.StartMainContentRight div{
+    display: flex;
+    margin-top: 36px;
+    font-size: 1.5rem;
+}
+
+.StartMainContentRight div svg{
+    margin-right: 12px;
+}
+
+.StartMainContentRight div div {
+    margin-top: 0;
+}
+
+.StartDescription{
+    font-size: 1.4rem;
+    margin-top: 36px;
+}
+
+.StartButtons{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 36px;
+}
+.StartButtons button{
+    margin-top: 36px;
+    font-size: 1.4rem;
+    padding: 12px 24px 12px 24px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: #88C0D0;
+    color:aliceblue;
+
+}
