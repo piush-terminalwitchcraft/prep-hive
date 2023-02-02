@@ -10,7 +10,7 @@ function DashboardNavBar() {
 			icon: <FaHome />,
 		},
 		{
-			path: "/blog",
+			path: "/Blog",
 			name: "Blogs",
 			icon: <FaBlog />,
 		},
