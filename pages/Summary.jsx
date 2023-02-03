@@ -1,4 +1,3 @@
-import React from 'react'
 import { useRouter } from 'next/router';
 import styles from "../styles/Summary.module.css";
 import React, { useRef, useEffect, useState } from 'react';
