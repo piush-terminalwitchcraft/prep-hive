@@ -10,7 +10,7 @@ const companies = [
         cardLink: "/StartX2R34",
         // for jp morgan little light background gradient, different from adobe
         background: "linear-gradient(to right, #cbcbff, #79e2ff)",
-        description: "Jp morgan is a nice company",
+        description: "They have 3 rounds.The AI interview round is important.",
         type: "company",
     },
     {
@@ -19,8 +19,28 @@ const companies = [
         cardLink: "/StartY3Y4Y1",
         // for adobe little light background gradient
         background: "linear-gradient(to right, #ff978c, #ffdc92)",
-        description: "Adobe is a nice company",
+        description: "Adobe WIT provides great scholarships for tech analysts.",
         type: "company",
+    },
+    {
+        cardHeader: "Barclays",
+        cardLogo: "Images/Barclays.jpg",
+        cardLink: "https://home.barclays/",
+        // for jp morgan little light background gradient, different from adobe
+
+        background: "linear-gradient(to right, #cbcbff, #79e2ff)",
+        description: "The company prefers policy-adhering candidates.",
+        type: "blogs",
+    },
+    {
+        cardHeader: "Oracle",
+        cardLogo: "Images/Oracle.jpg",
+        cardLink: "https://www.oracle.com/in/",
+        // for jp morgan little light background gradient, different from adobe
+
+        background: "linear-gradient(to right, #cbcbff, #79e2ff)",
+        description: "Focused on java developers with good knowledge.",
+        type: "blogs",
     },
     
     
@@ -29,79 +49,46 @@ const companies = [
 const blogs = [
     // same as company, just a little bit blogs related to interview experience
     {
-        cardHeader: "JPMorgan Chase",
-        cardLogo: "https://imgs.search.brave.com/eY3I7fKdSAoEl0MU8UwgBmDHO6sbtMmhPtbIRuZFOiA/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Ev/QUdGLWw3OTJFcU82/c2tyeGJlMHlnNldK/dmR0QWI1MnhkaS04/YmgzVzd3PXM5MDAt/Yy1rLWMweGZmZmZm/ZmZmLW5vLXJqLW1v",
-        cardLink: "https://www.jpmorganchase.com/",
+        cardHeader: "UNG",
+        cardLogo: "Images/ung1.jpg",
+        cardLink: "https://ung.edu/career-services/online-career-resources/interview-well/tips-for-a-successful-interview.php",
         // for jp morgan little light background gradient, different from adobe
 
         background: "linear-gradient(to right, #cbcbff, #79e2ff)",
-        description: "Easy, HR type interview",
+        description: "Interview tips to help you get through!",
         type: "blogs",
     },
     {
-        cardHeader: "Adobe",
-        cardLogo: "https://www.adobe.com/content/dam/cc/icons/Adobe_Corporate_Horizontal_Red_HEX.svg",
-        cardLink: "https://www.adobe.com/",
+        cardHeader: "Monster Jobs",
+        cardLogo: "Images/Monster.jpg",
+        cardLink: "https://www.monster.com/career-advice/article/boost-your-interview-iq",
         // for adobe little light background gradient
         background: "linear-gradient(to right, #ff978c, #ffdc92)",
-        description: "Adobe is a nice company",
+        description: "How to answer questions confidently.",
         type: "blogs",
     },
     {
-        cardHeader: "JPMorgan Chase",
-        cardLogo: "https://imgs.search.brave.com/eY3I7fKdSAoEl0MU8UwgBmDHO6sbtMmhPtbIRuZFOiA/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Ev/QUdGLWw3OTJFcU82/c2tyeGJlMHlnNldK/dmR0QWI1MnhkaS04/YmgzVzd3PXM5MDAt/Yy1rLWMweGZmZmZm/ZmZmLW5vLXJqLW1v",
-        cardLink: "https://www.jpmorganchase.com/",
+        cardHeader: "Jefferson Group",
+        cardLogo: "Images/Jefferson.png",
+        cardLink: "https://www.experis.com/en/insights/articles/2021/05/25/20-tips-for-great-job-interviews",
         // for jp morgan little light background gradient, different from adobe
 
         background: "linear-gradient(to right, #cbcbff, #79e2ff)",
-        description: "Easy, HR type interview",
+        description: "Easy tips to calm down before your interview",
         type: "blogs",
     },
+    
+    
+    
+    
+   
     {
-        cardHeader: "Adobe",
-        cardLogo: "https://www.adobe.com/content/dam/cc/icons/Adobe_Corporate_Horizontal_Red_HEX.svg",
-        cardLink: "https://www.adobe.com/",
+        cardHeader: "Indeed",
+        cardLogo: "Images/indeed.png",
+        cardLink: "https://in.indeed.com/career-advice/interviewing/interview-tips",
         // for adobe little light background gradient
         background: "linear-gradient(to right, #ff978c, #ffdc92)",
-        description: "Adobe is a nice company",
-        type: "blogs",
-    },
-    {
-        cardHeader: "JPMorgan Chase",
-        cardLogo: "https://imgs.search.brave.com/eY3I7fKdSAoEl0MU8UwgBmDHO6sbtMmhPtbIRuZFOiA/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Ev/QUdGLWw3OTJFcU82/c2tyeGJlMHlnNldK/dmR0QWI1MnhkaS04/YmgzVzd3PXM5MDAt/Yy1rLWMweGZmZmZm/ZmZmLW5vLXJqLW1v",
-        cardLink: "https://www.jpmorganchase.com/",
-        // for jp morgan little light background gradient, different from adobe
-
-        background: "linear-gradient(to right, #cbcbff, #79e2ff)",
-        description: "Easy, HR type interview",
-        type: "blogs",
-    },
-    {
-        cardHeader: "Adobe",
-        cardLogo: "https://www.adobe.com/content/dam/cc/icons/Adobe_Corporate_Horizontal_Red_HEX.svg",
-        cardLink: "https://www.adobe.com/",
-        // for adobe little light background gradient
-        background: "linear-gradient(to right, #ff978c, #ffdc92)",
-        description: "Adobe is a nice company",
-        type: "blogs",
-    },
-    {
-        cardHeader: "JPMorgan Chase",
-        cardLogo: "https://imgs.search.brave.com/eY3I7fKdSAoEl0MU8UwgBmDHO6sbtMmhPtbIRuZFOiA/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Ev/QUdGLWw3OTJFcU82/c2tyeGJlMHlnNldK/dmR0QWI1MnhkaS04/YmgzVzd3PXM5MDAt/Yy1rLWMweGZmZmZm/ZmZmLW5vLXJqLW1v",
-        cardLink: "https://www.jpmorganchase.com/",
-        // for jp morgan little light background gradient, different from adobe
-
-        background: "linear-gradient(to right, #cbcbff, #79e2ff)",
-        description: "Easy, HR type interview",
-        type: "blogs",
-    },
-    {
-        cardHeader: "Adobe",
-        cardLogo: "https://www.adobe.com/content/dam/cc/icons/Adobe_Corporate_Horizontal_Red_HEX.svg",
-        cardLink: "https://www.adobe.com/",
-        // for adobe little light background gradient
-        background: "linear-gradient(to right, #ff978c, #ffdc92)",
-        description: "Adobe is a nice company",
+        description: "How to say certain keywords and maintain eye-contact",
         type: "blogs",
     },
 
@@ -111,7 +98,7 @@ const mentors = [
     // same as above
     {
         cardHeader: "Mr Anuj Sharma",
-        cardLogo: "https://imgs.search.brave.com/rPm4p_BosWJLNzlbmORiAOpRPzArWigpJhvw7Nz054A/rs:fit:439:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5w/eXFERHBwZ244VkhX/UVZUdThXUU1BSGFI/XyZwaWQ9QXBp",
+        cardLogo: "Images/boy.png",
         cardLink: "https://www.linkedin.com/",
         // for jp morgan little light background gradient, different from adobe
         background: "linear-gradient(to right, rgb(250 197 159), rgb(152 108 52))",
@@ -120,7 +107,7 @@ const mentors = [
     },
     {
         cardHeader: "Ms Priya Jain",
-        cardLogo:"https://imgs.search.brave.com/Ow8Ync2xhUt3O6QojOQzgDsCjEE6lbezWVQE64kFgWM/rs:fit:439:225:1/g:ce/aHR0cHM6Ly90c2U0/LmV4cGxpY2l0LmJp/bmcubmV0L3RoP2lk/PU9JUC5fMzFoV3Rn/TnpyWEs3WndZUmdu/c09BSGFIXyZwaWQ9/QXBp",
+        cardLogo:"Images/ProfilePic.png",
         cardLink: "https://www.linkedin.com/",
         // for jp morgan little light background gradient, different from adobe
         background: "linear-gradient(to right, rgb(255 203 250), rgb(255 121 188))",
@@ -129,7 +116,7 @@ const mentors = [
     },
     {
         cardHeader: "Mr Donald Trump",
-        cardLogo: "https://imgs.search.brave.com/rPm4p_BosWJLNzlbmORiAOpRPzArWigpJhvw7Nz054A/rs:fit:439:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5w/eXFERHBwZ244VkhX/UVZUdThXUU1BSGFI/XyZwaWQ9QXBp",
+        cardLogo: "Images/ProfileOnceMore.png",
         cardLink: "https://www.linkedin.com/",
         // for jp morgan little light background gradient, different from adobe
         background: "linear-gradient(to right, rgb(250 197 159), rgb(152 108 52))",
@@ -138,7 +125,7 @@ const mentors = [
     },
     {
         cardHeader: "Ms Nancy Pelosi",
-        cardLogo:"https://imgs.search.brave.com/Ow8Ync2xhUt3O6QojOQzgDsCjEE6lbezWVQE64kFgWM/rs:fit:439:225:1/g:ce/aHR0cHM6Ly90c2U0/LmV4cGxpY2l0LmJp/bmcubmV0L3RoP2lk/PU9JUC5fMzFoV3Rn/TnpyWEs3WndZUmdu/c09BSGFIXyZwaWQ9/QXBp",
+        cardLogo:"Images/user.png",
         cardLink: "https://www.linkedin.com/",
         // for jp morgan little light background gradient, different from adobe
         background: "linear-gradient(to right, rgb(255 203 250), rgb(255 121 188))",

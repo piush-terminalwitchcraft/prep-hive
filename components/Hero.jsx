@@ -41,7 +41,7 @@ const Hero = () => {
 							<p className="text-muted mb-4 pb-2" style={grayText}>
 							PrepHive is your AI-powered interview coach. With advanced technology, PrepHive provides personalized feedback on your interview skills, so you can shine during your next job interview. Say goodbye to nervous jitters and hello to confidence and success..
 							</p>
-							<a href="#" className="btn btn-warning" style={cyanButton}>
+							<a href="/Dashboard" className="btn btn-warning" style={cyanButton}>
 								Find Out How{" "}
 								<span className="ml-2 right-icon">&#8594;</span>
 							</a>
