@@ -9,7 +9,7 @@ export default function Summary() {
     }
     else{
         console.log(query.data)
-        const label1 = JSON.parse(query.data1), label2 = JSON.parse(query.data2), type = JSON.parse(query.type);
+        const label1 = JSON.parse(query.data1), label2 = JSON.parse(query.data2), type = query.type;
         console.log(label1, label2, type);
 
     }
