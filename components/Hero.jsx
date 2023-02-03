@@ -47,7 +47,7 @@ const Hero = () => {
 								electronic typesetting, remaining essentially
 								unchanged.
 							</p>
-							<a href="#" className="btn btn-warning" style={cyanButton}>
+							<a href="/Dashboard" className="btn btn-warning" style={cyanButton}>
 								Find Out How{" "}
 								<span className="ml-2 right-icon">&#8594;</span>
 							</a>

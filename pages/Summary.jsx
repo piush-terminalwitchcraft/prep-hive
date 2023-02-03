@@ -8,8 +8,8 @@ export default function Summary() {
     }
     else{
         console.log(query.data)
-        const data = JSON.parse(query.data);
-        console.log(data);
+        const label1 = JSON.parse(query.data1), label2 = JSON.parse(query.data2), type = JSON.parse(query.type);
+        console.log(label1, label2, type);
 
     }
 //     const data = [1, 2, 3];
@@ -19,7 +19,7 @@ export default function Summary() {
   return (
     <div className={styles.MainBody}>
         <h1>Summary</h1>
-        
+
     </div>
   )
 }
