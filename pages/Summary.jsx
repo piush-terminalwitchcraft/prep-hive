@@ -4,6 +4,7 @@ import styles from "../styles/Summary.module.css";
 
 export default function Summary() {
     const { query } = useRouter();
+    console.log(query)
     if(query.data == undefined){
     }
     else{
