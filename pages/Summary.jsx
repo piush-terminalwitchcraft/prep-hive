@@ -5,17 +5,19 @@ import { Line } from 'react-chartjs-2';
 
 var label1; 
 var label2;
-var label3;
+var type;
 
 
 export default function Summary() {
     const { query } = useRouter();
     console.log(query)
-    console.log(query.data)
-    label1 = JSON.parse(query.data1), label2 = JSON.parse(query.data2), type = query.type;
+    // console.log(query.data)
+    if(query.data1 != undefined){
+      label1 = JSON.parse(query.data1), label2 = JSON.parse(query.data2), type = query.type;
+    }
     console.log(label1, label2, type);
     const chartData = {
-      labels: Array.from({ length: label1.length }, (_, i) => i),
+      labels: (label1 != undefined? Array.from({ length: label1.length }, (_, i) => i):[]),
       datasets: [
         {
           label: 'Data 1',
