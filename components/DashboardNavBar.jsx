@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import Router from "next/router";
 import Link from "next/link";
 import { faBars, FaBlog, FaHandsHelping, FaHome } from "react-icons/fa";
 import styles from "./../styles/NavBarDashBoard.module.css";
+import { auth} from "./firebase";
 function DashboardNavBar() {
 	const MenuItems = [
 		{
@@ -20,6 +22,16 @@ function DashboardNavBar() {
 			icon: <FaHandsHelping />,
 		},
 	];
+	var email;
+	if (!auth.currentUser) {
+		// window.location = "/login";
+		email = "piushpaul.16@gmail.com--";
+	  }
+	  else {
+		  email = auth.currentUser.email;
+
+	  }
+	
 	return (
 		<div className={styles.NavBody}>
 			<div className={styles.NavBodyContents}>
@@ -28,9 +40,9 @@ function DashboardNavBar() {
 				})}
 			</div>
 			<div className={styles.NavProfile}>
-				<div className={styles.NavProfileIcon}>P</div>
+				<div className={styles.NavProfileIcon}>{email.charAt(0).toUpperCase()}</div>
 				<div className={styles.NavProfileEmail}>
-					piushpaul.16@gmail.com
+					{email}
 				</div>
 			</div>
 		</div>

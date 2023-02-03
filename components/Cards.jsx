@@ -10,6 +10,7 @@ export default function (props) {
     // add gradient style
     style={{
         background: background,
+        color:"#4C566A"
     }}
     >
         <div>

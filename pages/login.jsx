@@ -1,7 +1,8 @@
 import React, { useState, useContext, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { db } from "../components/firebase";
+import { firebase, auth } from "firebase/app";
+import { db, app } from "../components/firebase";
 import {
   getAuth,
   createUserWithEmailAndPassword,
@@ -16,6 +17,7 @@ const Login = (props) => {
   const router = useRouter();
   const loginMsg = () => {
     const auth = getAuth();
+    // auth.setPersistence(.Auth.Persistence.LOCAL)
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         // Signed in
@@ -24,7 +26,7 @@ const Login = (props) => {
         console.log("Logged in as " + email + " and user credential ");
         // ...
         // navigate("/dashboard");
-        router.push("/dashboard");
+        router.push("/Dashboard");
       })
       .catch((error) => {
         const errorCode = error.code;
