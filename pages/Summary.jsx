@@ -5,7 +5,7 @@ import styles from "../styles/Summary.module.css";
 export default function Summary() {
     const { query } = useRouter();
     console.log(query)
-    if(query.data == undefined){
+    if(query.data1 == undefined){
     }
     else{
         console.log(query.data)
