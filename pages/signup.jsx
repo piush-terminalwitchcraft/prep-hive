@@ -22,15 +22,15 @@ const Signup = (props) => {
         const user = userCredential.user;
         console.log(user);
         try {
-          const docRef = await addDoc(collection(db, "authorities"), {
+          const docRef = await addDoc(collection(db, "users"), {
             authorityID: user.uid,
-            authorityEmail: email,
-            authorityName: userName,
-            authorityZone: "Mumbai",
+            userEmail: email,
+            userName: userName,
           });
           console.log("Document written with ID: ", docRef.id);
           alert("Successfully registered");
           router.push("/login");
+          
         } catch (e) {
           console.error("Error adding document: ", e);
         }

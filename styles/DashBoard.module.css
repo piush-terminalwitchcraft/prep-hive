@@ -3,3 +3,26 @@
 	min-height: 100vh;
 	background-color: #2e3440;
 }
+.FloatingButtonContainer {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+  }
+  .FloatingButton {
+	background-color: blue;
+	color: white;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+  }
+  .ChatbotContainer {
+	position: fixed;
+	bottom: 20px;
+	right: 80px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 20px;
+  }
