@@ -13,7 +13,7 @@ import {
   Legend,
 } from 'chart.js';
 var label1; 
-var label2;
+var label2 = [1,2,3,4,5];
 var type;
 
 ChartJS.register(
@@ -37,21 +37,23 @@ export default function Summary() {
     
 // const labels = ['0', '0.2', '0.4', '0.6', '0.8', '1.0'];
 const labels = Array.from({ length: 41 }, (_, i) => (i/40).toFixed(2));
-function shuffle() {
-  
-  for (let i = label2.length - 1; i > 0; i--) {
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
     let j = Math.floor(Math.random() * (i + 1));
-    [label2[i], label2[j]] = [label2[j], label2[i]];
+    [array[i], array[j]] = [array[j], array[i]];
   }
-  console.log(label2)
-
+  return array;
 }
-shuffle()
-const fake2 = label2;
-shuffle()
-const fake3 = (label2);
-shuffle()
-const fake4 = (label2);
+useEffect(() => {
+  shuffle(label2);
+}, []);
+
+// shuffle()
+// const fake2 = label2;
+// shuffle()
+// const fake3 = (label2);
+// shuffle()
+// const fake4 = (label2);
 
 const data = {
   labels,
@@ -64,22 +66,26 @@ const data = {
     },
     {
       label: 'Tone and pitch',
-      data: fake2,
+      data: (()=>{
+        shuffle(label2);
+        
+        return label2;
+      }),
       borderColor: 'rgb(53, 162, 235)',
       backgroundColor: 'rgba(53, 162, 235, 0.5)',
     },
-    {
-      label: 'Eye contact',
-      data: fake3,
-      borderColor: 'rgb(255, 99, 132)',
-      backgroundColor: 'rgba(255, 99, 132, 0.5)',
-    },
-    {
-      label: 'Body language',
-      data: fake4,
-      borderColor: 'rgb(255, 99, 132)',
-      backgroundColor: 'rgba(255, 99, 132, 0.5)',
-    },
+    // {
+    //   label: 'Eye contact',
+    //   data: fake3,
+    //   borderColor: 'rgb(255, 99, 132)',
+    //   backgroundColor: 'rgba(255, 99, 132, 0.5)',
+    // },
+    // {
+    //   label: 'Body language',
+    //   data: fake4,
+    //   borderColor: 'rgb(255, 99, 132)',
+    //   backgroundColor: 'rgba(255, 99, 132, 0.5)',
+    // },
     // {
     //   label: 'Dataset 2',
     //   data: labels.map(() => faker.datatype.number({ min: -1000, max: 1000 })),
