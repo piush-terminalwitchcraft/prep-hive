@@ -37,8 +37,12 @@ const Login = (props) => {
     <div className="signInUp-body body">
       <div className="box">
         <div className="left">
-          <img src="/welcome.svg"></img>
-          <p>WELCOME TO HELPALERT</p>
+        <img
+								src="Images/Background.png"
+								alt=""
+								className="img-fluid mx-auto d-block"
+							/>
+          <p>WELCOME TO PrepHive</p>
         </div>
         <div className="right">
           <div className="top-buttons">

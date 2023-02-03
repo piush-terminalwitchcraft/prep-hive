@@ -69,9 +69,9 @@ const FeatureBox = (props) => {
 const Feature = () => {
 
   const features = [
-    {id : 1, img : "./images/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
-    {id : 2, img : "./images/Group Members.png", title : "LOREM IPSUM", desc : "Sed perspiciatis unde omnis natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo excepturi sint occaecati cupiditate architecto.", link : "/"},
-    {id : 3, img : "./images/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
+    {id : 1, img : "./images/MockInterviews.png", title : "1. Mock Interviews", desc : "Our AI model analyzes your facial expressions, eye contact, hand gestures and general pitch and tone of your voice. Based on this data, it rates whether you are confident or not.", link : "/"},
+    {id : 2, img : "./images/Telephone.png", title : "2. Telephonic Interviews", desc : "We also provide an analysis of your voice and determine how professional and confident you sound.", link : "/"},
+    {id : 3, img : "./images/Group Members.png", title : "3. Book a mentor/Expert", desc : "For our pro subscribers, we have provided an additional feature of ask the expert where users can have a 1 on 1 mentoring session with experts who have already gotten through the interview process of a certain company.", link : "/"},
   ];
 
   return (
@@ -88,7 +88,7 @@ const Feature = () => {
           <Col lg={6} md={8}>
             <div className="title text-center mb-5">
               <h3 className="font-weight-normal text-dark" style={blackText}><span className="text-warning"style={blackText}>Features</span></h3>
-              <p className="text-muted" style={lightblackText}>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+              <p className="text-muted" style={lightblackText}>Our website provides multiple features to help you with your interview preparation. With AI powered guidance providing in depth analysis and feedback, you are set to ace your next interview!</p>
             </div>
           </Col>
         </Row>
