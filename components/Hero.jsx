@@ -30,22 +30,16 @@ const Hero = () => {
 					<Col lg={6}>
 						<div className="pr-lg-5">
 							<p className="text-uppercase text-primary font-weight-medium f-14 mb-4"style={blueText}>
-								Lorem Ipsum
+								InterView
 							</p>
 							<h1 className="mb-4 font-weight-normal line-height-1_4" style={whiteText}>
-								Simply dummy text of the printing{" "}
+								{" Interview Expertise, at Your"}
 								<span className="text-primary font-weight-medium" style={blueText}>
-									Name
+									Fingertips
 								</span>
 							</h1>
 							<p className="text-muted mb-4 pb-2" style={grayText}>
-								Lorem Ipsum has been the industry's standard
-								dummy text ever since the 1500s, when an unknown
-								printer took a galley of type and scrambled it
-								to make a type specimen book. It has survived
-								not only five centuries, but also the leap into
-								electronic typesetting, remaining essentially
-								unchanged.
+							PrepHive is your AI-powered interview coach. With advanced technology, PrepHive provides personalized feedback on your interview skills, so you can shine during your next job interview. Say goodbye to nervous jitters and hello to confidence and success..
 							</p>
 							<a href="/Dashboard" className="btn btn-warning" style={cyanButton}>
 								Find Out How{" "}

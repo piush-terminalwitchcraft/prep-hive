@@ -5,10 +5,10 @@ const Footer = () => {
   const links = [
     { id : 1, title : "Feature",
       child : [
-          { title : "LOREM IPSUM", link : "/" },
-          { title : "LOREM IPSUM", link : "/" },
-          { title : "LOREM IPSUM", link : "/" },
-          { title : "LOREM IPSUM", link : "/" }
+          { title : "Mock Interviews", link : "/" },
+          { title : "Telephonic Interviews", link : "/" },
+          { title : "Blogs and articles", link : "/" },
+          { title : "Book an expert", link : "/" }
       ]
     },
     { id : 2, title : "About Us",
@@ -26,8 +26,8 @@ const Footer = () => {
         <Row>
           <Col lg={4}>
               <div className="mb-4">
-                <p className="text-muted mt-4 mb-2">email@email.com</p>
-                <h6 className="text-muted font-weight-normal">+99 1234-5678-9</h6>
+                <p className="text-muted mt-4 mb-2">PrepHivebusiness@gmail.com</p>
+                <h6 className="text-muted font-weight-normal">+91 99234 67890</h6>
               </div>
           </Col>
           <Col lg={8}>
@@ -49,8 +49,8 @@ const Footer = () => {
               
               <Col md={4}>
                 <h6 className="text-dark mb-3">Our Address</h6>
-                <p className="text-muted f-14">1234 Lorem Ipsum dummy text, 12345</p>
-                <h6 className="text-muted pb-2">Email: email@email.com</h6>
+                <p className="text-muted f-14">1232, 2nd cross lane, building no. 4, Andheri(W) </p>
+                <h6 className="text-muted pb-2">Email: PrepHiveBusiness@gmail.com</h6>
                 <ul className="list-unstyled footer-social-list mt-4">
                   <li className="list-inline-item"><a href="#"><i className="mdi mdi-facebook"></i></a></li>
                   <li className="list-inline-item"><a href="#"><i className="mdi mdi-instagram"></i></a></li>
