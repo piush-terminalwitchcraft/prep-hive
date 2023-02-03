@@ -12,6 +12,7 @@
 		"@next/font": "13.1.6",
 		"api": "^5.0.7",
 		"bootstrap": "^5.2.3",
+		"chart": "^0.1.2",
 		"chart.js": "^4.2.0",
 		"chatgpt": "^4.1.0",
 		"firebase": "^9.16.0",
